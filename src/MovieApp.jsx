@@ -7,8 +7,13 @@ export const MovieApp = () => {
         <h1 className='title'>Movie App</h1>
 
         <form>
-            <input type="text" placeholder='Busca tu pelicula' className='input'/>
-            <button className='button'>Buscar</button>
+            <input 
+            type="text" 
+            placeholder='Busca tu pelicula' 
+            className='input'/>
+            
+            <button 
+            className='search-button'>Buscar</button>
         </form>
     </div>
   )
