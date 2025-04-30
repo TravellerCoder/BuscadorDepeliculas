@@ -10,5 +10,3 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>,
 )
 
-    const urlBase = "https://api.themoviedb.org/3/search/movie?"
-  const API_KEY = "dd6a73bd51ab77a0c577136766bd6e33"

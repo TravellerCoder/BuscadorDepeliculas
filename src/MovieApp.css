@@ -53,3 +53,19 @@ button:hover {
     text-align: center;
     transition: 0.3s ease all;
 }
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.movie-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.movie-card p {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
