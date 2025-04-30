@@ -38,3 +38,18 @@ button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transform: scale(1.05);
 }
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: #4b025a;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s ease all;
+}
